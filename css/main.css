@@ -1,0 +1,77 @@
+/*清除默认样式*/
+body{font-size: 14px;}
+/*header*/
+#header{height: 131px; border-top: 4px solid #EFEFEF; background: #fff;}
+#header .headerAll{width: 960px; margin:0 auto;}
+#header .headerL{float: left; width: 320px; padding-top: 10px;}
+#header .headerL img{cursor: pointer;}
+#header .headerR{float: left;}
+#header .headerR ul li{float: left; font-size: 16px; height: 130px; line-height: 130px; font-weight: bold;}
+#header .headerR a{margin-right: 30px; padding-bottom: 10px;}
+#header .headerR a:link,#header .headerR a:visited{text-decoration: none; color: #555;}
+#header .headerR a:hover{color: #555; border-bottom: 2px solid #555;}
+/*myimg*/
+#myimg{width:100%; height: 520px;}
+#myimg ul li.p1{height: 520px; background:url(../images/photo.jpg) no-repeat left center;}
+/*welcome*/
+#welcome{ width: 100%;  padding-top: 55px; font-size: 18px; }
+#welcome h1{width: 960px; margin: 0 auto; font-weight: bold; padding-bottom: 60px;}
+#welcome .con{width: 960px; margin:0 auto; height: 180px;}
+#welcome .conLeft{width: 300px;float: left; margin-bottom: 30px;}
+#welcome .conRight{width:640px; float: left; margin-left: 20px; margin-bottom: 30px; }
+#welcome .conRight p{text-indent: 2em; line-height: 1.25em;}
+#welcome .conRight p a:link,#welcome .conRight p a:visited{color: #555; text-decoration: none;}
+#welcome .conRight p a:hover{color: #555; text-decoration: none;}
+#welcome .text1{font-size: 18px; font-weight: bold;}
+#welcome .text2{font-size: 18px; margin-top: 10px; }
+/*footer*/
+#footer{height: 50px; background: #ccc; padding-top: 25px; border-top: 1px solid #bbb;border-bottom: 3px solid #555;}
+#footer ul{width: 960px; height: 50px;  margin:0 auto;font-size: 18px; }
+#footer ul .pLeft{width: 580px; float: left; }
+#footer ul .pLeft span{margin-right: 20px; margin-left: 20px; cursor: pointer;}
+#footer ul .pRight{float: left;}
+#footer ul .pRight a:link,#footer .pRight a:visited{ color:#555; text-decoration: underline;}
+#footer ul .pRight a:hover{ color:red; text-decoration: underline;}
+
+/*作品zuopin.html页面*/
+#myWork{width: 960px;  margin: 50px auto; }
+#myWork h1{padding-left: 15px; margin-bottom: 50px;text-shadow: 2px 2px 10px rgba(0,255,0,0.7);}
+#myWork .works{width: 960px; margin: 0 auto; height: 500px;}
+#myWork .works ul{padding-left: 15px; }
+#myWork .works li{width: 250px; height: 410px; float: left;}
+#myWork .works li img{width: 220px; height: 330px; border:1px solid #ccc; box-shadow: 0px 0px 2px 1px #bbb;}
+#myWork .works li h2{margin-top: 10px; font-size: 16px; text-align: center; padding-right: 28px;}
+/*照片photo.htnl页面*/
+#myPhoto{width: 960px;  margin: 50px auto;}
+#myPhoto h1{padding-left: 15px; margin-bottom: 50px;text-shadow: 2px 2px 10px rgba(255,0,0,0.7);}
+#myPhoto .photos{width: 960px; margin: 0 auto; height: 880px;}
+#myPhoto .photos ul{padding-left: 15px; }
+#myPhoto .photos li{width: 210px; height: 300px; float: left;}
+#myPhoto .photos li img{width: 180px; height: 260px; border:1px solid #ccc; box-shadow: 0px 0px 2px 1px pink;}
+#myPhoto .photos li h2{margin-top: 10px; font-size: 14px; font-weight: normal; text-align: center; padding-right: 28px;}
+/*myread页面*/
+#myread {width: 960px; margin:50px auto;}
+#myread h1{padding-left: 100px;padding-bottom: 40px;}
+#myread h1 span{background: #23C3AB; border-radius: 15px; display: inline-block;padding:3px 10px;}
+#myread h1 b{text-shadow:3px 3px 1px green;}
+#myread .box1,#myread .box2{padding: 10px;}
+#myread .bt{cursor:pointer; margin-left: 400px; width: 40px; height: 26px;}
+#myread span{font-size: 16px; font-weight: bold; }
+#myread #title{width: 200px; height: 24px; border:1px solid #ccc; }
+#myread #life{width:700px; height: 150px; border:1px solid #ccc; }
+hr{margin-top: 20px; width: 960px; display: block;}
+#myread .ul1{width: 960px; margin:20px auto;}
+#myread .ul1 li.li1{width: 150px; padding-right: 30px; float: left;}
+#myread .ul1 li.li2{width: 750px; float: left;}
+#myread .qing{ clear: both;}
+#myread .li1 ul{width: 150px;} 
+#myread .li2 ul{width: 750px; word-break:break-all;}
+#myread .li1 ul li,#myread .li2 ul li{margin-top: 20px;}
+
+
+
+
+/*mylove页面*/
+#mylove{width: 960px; margin:50px auto;}
+#mylove h1{padding-left: 200px;}
+#mylove h1 strong{text-shadow:2px 3px 8px #23C3AB;}

@@ -1,0 +1,59 @@
+/*清除默认样式*/
+body,ul,li,img,h1,h2{margin: 0;padding: 0;border:0;list-style: none; font-size: 18px; font-family: "楷体";}
+/*all*/
+#all{ width: 1020px; margin: 0 auto; background: #FFF;}
+#all .gogo{position: absolute; left: 0px; top: 0px;}
+/*简历left*/
+#left{width:232px;  background:#23C3AB; margin-right: 26px;float: left; padding-left: 20px; padding-top: 100px;}
+#left .ltop{width: 220px;}
+#left .ltop img{width: 150px; height: 150px; border-radius: 100px;margin-left: 25px; }
+
+#left .ltop h1.name{ height: 30px; line-height: 30px; padding:15px 0 0 38px; color: #FFF;font-size: 30px;}
+#left .ltop h1.job{ height: 30px; line-height: 30px; padding:15px 0 0 0; color: #3B3C37;font-size: 22px;}
+#left .lcenter{ width: 220px; color: #FFF; padding-top: 100px;}
+#left .lcenter ul li.lcenl{width: 98px; height: 28px; float: left; text-align:right;}
+#left .lcenter ul li.lcenr{width: 90px; height: 28px; float: left; padding-left: 20px;}
+progress {  display:block;
+	        position: relative;
+		    width: 90px;
+		    height:13px;
+		    border: 1px solid #23C3AB;  
+		    border-radius: 5px;
+		    background-color:#cdcdcd;
+		    color: #3F9D8D; /*IE10*/
+		}
+		progress ie {
+		position: absolute; top: 0; left: 0;
+    	display: block;
+    	height: 13px;
+    	background: #3F9D8D; 
+		}
+
+		progress::-moz-progress-bar { background: #3F9D8D; }
+		progress::-webkit-progress-bar { background: #cdcdcd; }
+		progress::-webkit-progress-value  { background: #3F9D8D; }
+#left .wei{clear: both;padding-top: 80px;}	
+#left .wei p{margin-left: 60px;}		
+#left .wei img{width: 120px; height: 120px; margin-left: 45px;}		
+#left .lbottom{width:182px; padding-left: 15px;  display: block; clear:both; padding-top: 30px;}
+#left .lbottom span{height: 28px; line-height: 28px; color: #3B3C37;font-size: 18px; font-family: "楷体";}
+#left .lconnect{width: 210px; padding-left: 8px; color: #fff; padding-top: 30px; padding-bottom: 50px;}
+#left .lconnect p{height: 16px; line-height: 16px;}
+#left .lconnect p img{width: 18px; height: 18px;margin-right: 5px;}
+/*简历right*/
+#right{width:692px; float: left; margin-left: 10px; padding-right: 40px; font-size: 16px;}
+#right h2{
+    text-shadow:
+    0px 1px 0px #a0a0a0,
+    0px 2px 0px #909090;color: #23C3AB; font-size: 34px; font-family: "楷体"; margin-bottom: 6px; padding-top: 2px;  }
+#right .project{}
+#right .project h2 span{color:gray; font-size: 20px; font-family: "楷体";text-shadow:0px 3px 3px #23C3AB; }
+#right strong{height: 22px; line-height: 22px; opacity: 0.9; display: inline; font-family: "楷体"; padding:3px 6px;  border-radius: 11px; background:#23C3AB; font-size: 20px; color: #3B3C37; font-weight: normal; }
+#right p{font-size: 18px; font-family: "楷体"; }
+#right p span{margin-right:6px;display: inline-block; width: 22px; height: 22px; background:#23C3AB; border-radius: 11px; text-align: center; vertical-align: center;}
+#right .project p.git{font-family: "Times New Roman";}
+ i{font-family: "Times New Roman"; font-style: normal;}
+#right .study{}
+#right .award{}
+#right .education{}
+#right .interst{}

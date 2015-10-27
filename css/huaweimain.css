@@ -1,0 +1,132 @@
+/*清除默认样式*/
+body{padding: 0; margin:0; font-size: 14px; font-family: "宋体";}
+p,ul,li,img,input,h1,h2,h3,h4,span{padding: 0; margin: 0; list-style:none; border:0;}
+/*header*/
+#header{height: 36px;  background: #5C5D57; padding-left: 90px; font-weight: bold;}
+#header a{color: #CECECE; padding:10px 17px; height: 16px; line-height: 16px; font-size: 16px;float: left; display: block;}
+#header a:hover{background:#333;}
+#header .current{background:#fff; color:#312F30;}
+#header a.current:hover{background:#fff;}
+/*logo*/
+#logo{width: 1170px; height: 80px; margin: 0 auto; line-height: 80px;}
+#logo .logoL{width:841px; height:80px; float: left; }
+#logo  img{padding-top: 20px;}
+#logo .logoC{width: 215px; height: 80px; float: left; font-size: 14px;}
+#logo .logoC span{padding: 0 10px;}
+#logo .logoC a:link,#logo .logoC a:visited{text-decoration: none; }
+#logo .logoC a:hover{text-decoration: underline; color: #312F30; }
+#logo .logoR{width:114px; float: left;}
+#logo .logoR img{width:38px; height:38px; float: left;overflow: hidden; display: inline-block;}
+ /*nav*/
+ #nav{ background: #F7F7F7; font-size: 16px;}
+ #nav .navcon{ height: 54px; border:1px solid #eee; }
+ #nav .navbox{width: 1170px; margin: 0 auto;}
+ #nav .navcon .navconL{ width: 990px; float: left;}
+ #nav .navcon .navconL ul li{float: left; }
+ #nav .navcon .navconL ul li a{padding: 18px 22px; display: block;} 
+ #nav .navcon .navconL ul li a:link,#nav .navcon .navconL ul li a:visited{color: #312F30; text-decoration: none;}
+ #nav .navcon .navconL ul li a:hover{color:#DE232C; border-bottom: 2px solid #CA292E;}
+ #nav .navcon .navconL ul li.current{ padding-right: 20px; height: 54px; background:#fff url(../images/open.png) no-repeat 80px center;}
+ #nav .navcon .navconL ul li.current a:hover{border-bottom:0;}
+ #nav .navcon .navconR{width: 180px; float: left;} 
+ #nav .navcon .navconR input{ float:left;width: 139px; height:38px; size:16px; line-height:38px; padding-left:10px; margin-top: 7px; background: #fff; border:1px solid #eee; border-right: 0;} 
+ #nav .navcon .navconR a{ float:left; margin-top: 7px; display:block; width: 28px; height: 38px; border:1px solid #eee; border-left: 0; background:url(../images/icon_find.png) no-repeat left center #FFF;} 
+ #nav .nav_con1{height: 235px; border-bottom: 1px solid #eee; background: #f7f7f7;}
+ #nav .nav_con1 .con1L, #nav .nav_con1 .con1C, #nav .nav_con1 .con1R{float: left; width: 270px; padding-left: 120px; padding-top: 10px;}
+ #nav .nav_con1  ul li.myimg, #nav .nav_con1  ul li.mytext{float: left;}
+ #nav .nav_con1 .con1L ul li.myimg{width: 64px;} 
+ #nav .nav_con1 .con1L ul li.mytext{width: 165px; padding-top: 10px; padding-left: 30px;}
+ #nav .nav_con1  ul li.mytext a{line-height: 35px;}
+ #nav .nav_con1  ul li.mytext a:hover{text-decoration: underline;} 
+ #nav .nav_con1  ul li.mytext span{line-height: 70px;}
+ #nav .nav_con1 .con1C ul li.myimg{width: 72px;}
+ #nav .nav_con1 .con1C ul li.mytext{width: 157px; padding-top: 10px; padding-left: 30px;}
+ #nav .nav_con1 .con1R ul li.mytext{width: 165px; padding-top: 10px; padding-left: 30px;}
+
+ #nav .nav_con2{height: 310px; border-bottom: 1px solid #eee; background: #f7f7f7;}
+ #nav .nav_con2 .con2L, #nav .nav_con2 .con2C, #nav .nav_con2 .con2R{float: left; width: 294px; padding-left: 96px; padding-top: 20px; font-size: 16px;}
+ #nav .nav_con2 .con2L a{ width: 250px; display: block; height: 20px;line-height: 20px; padding-bottom: 10px; border-bottom: 1px solid #ccc;}
+ #nav .nav_con2 .con2C ul li.mytext a,#nav .nav_con2 .con2R ul li.mytext a {color: #000; display: block; padding-top: 10px; font-size: 16px; font-weight: bold;}
+ #nav .nav_con2 ul li.mytext a:hover{color: #1Af;}
+ #nav .nav_con2 ul li.mytext p{height: 24px; line-height: 24px;}
+
+ #nav .nav_con3{height: 310px; border-bottom: 1px solid #eee; background: #f7f7f7;}
+ #nav .nav_con3 .con3L,#nav .nav_con3 .con3R{float: left; padding-left: 90px; padding-top: 20px; font-size: 16px;}
+ #nav .nav_con3 .con3L{width: 500px;}
+ #nav .nav_con3 .con3R{width: 600px;}
+ #nav .nav_con3 .con3L ul{float: left; width: 250px; }
+ #nav .nav_con3 .con3L ul h3{color:#DE232C; padding-bottom: 20px;}
+ #nav .nav_con3 .con3L ul a{height: 35px; line-height: 35px;} 
+ #nav .nav_con3 .con3L ul .job li{float: left; width: 125px;}
+
+ #nav .nav_con3 .con3R ul{float: left; width: 300px; }
+ #nav .nav_con3 .con3R img{width: 274px; height: 142px;}
+ #nav .nav_con3 .con3C ul li.mytext a,#nav .nav_con3 .con3R ul li.mytext a {color: #000; display: block; padding-top: 10px; font-size: 16px; font-weight: bold;}
+ #nav .nav_con3 ul li.mytext a:hover{color: #1Af;}
+ #nav .nav_con3 ul li.mytext p{height: 24px; line-height: 24px;}
+
+
+
+
+ /*know*/
+ #know{width: 100%;height: 540px;}
+ #know div{width: 100%; height: 540px; overflow: hidden;position: absolute;}
+ #know ol{position:absolute; right:700px; bottom:10px;}
+ #know ol li{width:20px; height:20px; background:#fff; border:1px solid #ccc; float:left; text-align:center; line-height:20px; margin-left:10px; _display:inline; cursor:pointer;}
+ #know ol li.current{background: yellow;}
+ #know ul li a span:link,#know ul li a span:visited{color: #fff; text-decoration: none;}
+ #know ul li a span:hover{color: #fff; text-decoration:none; background: #DD3535;}
+ #know ul li.p1{height: 540px; background:url(../images/know1.1.jpg) no-repeat center; }
+ #know ul li.p1 img{position: relative; left: 166px; top: 166px;}
+ #know ul li.p1 span{position: relative; left: 166px; top: 222px;display: block;width: 118px; height: 40px; line-height: 40px; padding-left: 30px; border-radius: 5px; background: #AF2D2D; color: #fff; font-size: 16px;}
+ #know ul li.p2{height: 540px; background:url(../images/know2.1.jpg) no-repeat center;}
+ #know ul li.p2 img{position: relative; left: 658px; top: 134px;}
+ #know ul li.p2 span{position: relative; left: 1000px; top: 182px;display: block;width: 118px; height: 40px; line-height: 40px; padding-left: 30px; border-radius: 5px; background: #AF2D2D; color: #fff; font-size: 16px;}
+ #know ul li.p3{height: 540px; background:url(../images/know3.1.jpg) no-repeat center;}
+ #know ul li.p3 img{position: relative; left: 133px; top: 74px;}
+ #know ul li.p3 span{position: relative; left: 136px; top: 132px;display: block;width: 118px; height: 40px; line-height: 40px; padding-left: 30px; border-radius: 5px; background: #AF2D2D; color: #fff; font-size: 16px;}
+ /*newtitle*/
+ #newtitle{width: 1170px; margin: 18px auto; height: 60px; background: #f7f7f7; overflow: hidden;}
+ #newtitle a:link,#newtitle a:visited{color: #312F30;text-decoration: none;}
+ #newtitle a:hover{color: #312F30; text-decoration: underline;}
+ #newtitle .newtitleL{float: left;  width: 116px; height: 58px; background: url(../images/newlogo.png) no-repeat; line-height: 58px; font-size: 16px; font-weight: bold; padding-left: 50px;}
+ #newtitle .newtitleR{float: left; width: 954px; overflow: hidden;padding-left: 50px;}
+ #newtitle .newtitleR ul li{ font-weight: bold; letter-spacing: 1px; display: block;width: 1004px; height: 58px; line-height: 58px; float: left;}
+/*content*/
+#content{width: 1170px; margin:0 auto;}
+#content .contTop{height: 390px;}
+#content .contMiddle{height: 606px; padding-top: 30px;}
+#content .contBottom{height: 390px;}
+#content a:link,#content a:visited{color: #312F30;text-decoration: none; }
+#content a:hover{color: #312F30; text-decoration: underline;}
+#content ul li{ width: 370px; height: 390px; float: left; padding-right: 30px;}
+#content ul li.noneright{padding-right: 0;}
+#content ul li img{display: block; width: 370px; height: 294px; overflow:hidden;}
+#content ul li h2{font-size: 18px; height: 16px; padding-top: 20px; font-weight: normal;}
+#content ul li p{height: 25px; line-height: 25px;padding-top: 15px;}
+/*avtive*/
+#avtive{height: 248px; background:#f7f7f7; margin-top: 27px;}
+#avtive h1{margin:0 auto; text-align: center; height: 70px; line-height: 70px;}
+#avtive .someact{ width: 1170px; height: 150px; margin:0 auto;}
+#avtive .someact .actL,#avtive .someact .actC,#avtive .someact .actR{width: 390px; float: left;}
+#avtive .someact ul li{float: left; margin-top: 20px;}
+#avtive .someact ul li p{height: 20px; padding-left: 10px; margin-top: 10px;}
+/*footer*/
+#footer{width: 100%; height: 340px; padding-top: 40px; background: #333;color: #fff;}
+#footer a:link,#footer a:visited{color: #fff; text-decoration: none;}
+#footer a:hover{color: #fff; text-decoration: underline;}
+#footer .footTop{width: 1170px; height: 295px; margin:0 auto;}
+#footer .footL{width: 800px; float: left;}
+#footer .footL ul li{width: 190px; float: left;}
+#footer .footL ul li h2{padding-bottom: 30px;}
+#footer .footL ul li p{height: 32px; font-weight: bold;}
+#footer .footR{width: 370px; float: left;}
+#footer .footR img{margin-bottom: 25px;}
+#footer .footR span{margin-right:25px ;}
+#footer .footBottom{width: 1170px; margin:0 auto;}
+#footer .footBottom a.current{padding-right: 470px; color: #fff;}
+#footer .footBottom span{margin-left: 10px; margin-right: 5px;}
+
+
+
+

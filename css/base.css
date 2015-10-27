@@ -1,0 +1,87 @@
+﻿@charset "utf-8";
+/* ---------------------------------------- */
+/* Reset Css
+/* ---------------------------------------- */
+
+html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label,textarea, legend, table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {margin:0; padding:0; border:0; outline:0; vertical-align:baseline; background:transparent;}
+body{font-family:"宋体"; font-size:12px; line-height:1; color:#555; background:#fff;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+ul,ol,li{list-style-type:none;}
+blockquote, q { quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: ''; content: none;}
+input, select, button {vertical-align:middle; padding:0;}
+input {outline:none;}
+img, button {border:0;}
+table {border-collapse:collapse; border-spacing:0;}
+a {text-decoration:none; color:#555;}
+a:hover {color:#4ca5ff;}
+em {font-style:normal;}
+
+/* ---------------------------------------- */
+/* Common Classes
+/* ---------------------------------------- */
+
+.b{font-weight:bold;} 
+.font_20{font-size:20px;}
+.font_18{font-size:18px;}
+.font_16{font-size:16px;}
+.font_14{font-size:14px;}
+.font_12{font-size:12px;}
+.font_10{font-size:10px;}
+.text {text-indent:-9999px;}
+.center {text-align:center;}
+.yahei {font-family:Microsoft YaHei, calibri, verdana;}
+.white {color:#fff;}
+.red {color:#ff0000;}
+.blk {color:#000;}
+.org {color:#F60;}
+.blue {color:#0081CC;}
+.grey {color:#999;}
+.left {float:left;}
+.right {float:right;}
+.agl {text-align:left;}
+.agr {text-align:right;}
+.agc {text-align:center;}
+.clear{clear:both;}
+.box_960 {width:960px; margin:0 auto;}
+.box_1000 {width:1000px; margin:0 auto;}
+.opacity {filter:alpha(opacity=50); /* ie */ opacity: 0.5;}
+.en {font-family:Arial, Helvetica, sans-serif;}
+.clearfix:after {content:''; clear:both; display:block;}
+.clearfix {zoom:1;}
+/* ---------------------------------------- */
+/* Common Styles
+/* ---------------------------------------- */
+
+
+/* login */
+.login_top {height:80px; overflow:hidden;}
+.logo, .jd_logo, .es_t {margin-top:12px; text-indent:-9999px;}
+.logo a {display:block; width:87px; height:55px; border-right:1px solid #ccc; background:url(../images/logo_a_bg.gif) no-repeat;}
+.jd_logo a {display:block; width:160px; height:46px; background:url(../images/jd_logo_bg.gif) no-repeat; margin-left:22px;}
+.es_t { width:130px; height:22px; background:url(../images/es_t_bg.gif) no-repeat; margin-left:46px; margin-top:24px;}
+.login_link {padding-top:18px; color:#ccc;}
+.login_link a {color:#555;}
+.login_link a:hover {color:#00cbfe;}
+.login_link em {padding:0 10px;}
+.login_u { padding-top:14px; line-height:22px; color:#555;}
+.login_u li {float:left; padding-left:20px;}
+.qq_19e {background:url(../images/qq_19e_bg.gif) no-repeat left 2px; margin-right:20px;}
+.tel_19e {background:url(../images/tel_19e_bg.gif) no-repeat left 2px;}
+
+.login_ban {height:560px; overflow:hidden; position:relative; background:#f1f0f5 url(../images/login_ban01.jpg) no-repeat center top;}
+.login_box {width:302px; height:368px; overflow:hidden; position:absolute; background:#fff; left:50%; top:50px; margin-left:164px;}
+
+
+/* index */
+.foot {padding:22px 0; line-height:20px; border-top:1px solid #ccc; color:#666;}
+
+
+
+
+
+
+
+
+
+
