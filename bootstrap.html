@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <!--==========================================标题的图标===================================================-->
+    <link rel="icon" href="images/favicon.ico">
+    <title>Bootstrap 101 Template</title>
+
+    <!-- ==========================================     Bootstrap   ==========================================-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style type="text/css">
+      body {padding: 50px 0;}
+      .starter-template {padding: 40px 15px;text-align: center;}
+      #myCarousel{height: 300px; background-color: #000;}
+      #myCarousel .item{height: 300px; background-color: #000;}
+      #myCarousel img{width: 100%; }
+      .marketing{margin-top: 20px;}
+      #tocenter .col-lg-4{text-align: center;}
+      hr.divider{margin:40px 0;}
+      .mav-tab li{float: left;}
+      .feature{margin: 30px 0;}
+      .feature-heading{font-size: 40px; color: #F90; padding-top: 30px;}
+      .feature-heading .text-muted{font-size: 20px; color: #999;}
+    </style>
+  </head>
+  <body>
+<!--==========================================    导航条 开始  ==========================================-->
+   <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <!--================    页面变小显示三个小横线开始    =============-->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!--================    下边为显示的标题    =============-->
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <!--================    页面变小显示三个小横线结束    =============-->
+  
+		<!--================           导航条显示开始       =============-->
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <!--================    下拉列表开始    =============-->
+            <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#home">Hao123</a></li>
+                    <li><a href="#profile">百度 action</a></li>
+                    <li><a href="#message">网易 else here</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li class="dropdown-header">Nav header</li>
+                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+            </li>
+            <!--================    下拉列表结束    =============-->
+            <!--===点击帮助弹出弹出框要加data-toggle="modal" data-target="#help"  ==-->
+            <li ><a href="#" data-toggle="modal" data-target="#help">帮助</a></li>
+          </ul>
+          <!--================          表单显示      =============-->
+          <form class="navbar-form navbar-right" role="search">
+              <div class="form-group">
+                  <input type="text" class="form-control" placeholder="用户名...">
+              </div>
+              <div class="form-group">
+                  <input type="text" class="form-control" placeholder="密码...">
+              </div>
+              <button type="submit" class="btn btn-default">登录</button>
+          </form> 
+        </div><!--/.nav-collapse -->
+        <!--================           导航条显示结束       =============-->
+      </div>
+    </nav>
+<!--==========================================    导航条结束  ==========================================-->
+
+<!--==========================================   图片轮播滚动开始   ==========================================-->
+ <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!--==========Indicators 下部小点点导航开始================-->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <!--==========Indicators 下部小点点导航结束=================-->
+      
+      <!--====================轮播内容开始==========================-->
+      <div class="carousel-inner" role="listbox">
+      <!--===============轮播的第一页内容=============-->
+        <div class="item active">
+          <img class="first-slide" src="images/img1.jpg" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Example headline.</h1>
+              <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+            </div>
+          </div>
+        </div>
+      <!--===============轮播的第二页内容=============-->
+        <div class="item">
+          <img class="second-slide" src="images/img2.jpg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Another example headline.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+      <!--===============轮播的第三页内容=============-->
+        <div class="item">
+          <img class="third-slide" src="images/img3.jpg" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>One more for good measure.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--=================== 轮播内容结束 ========================= -->
+      
+      <!-- ==========================向左和向右切换的按钮开始=================== -->
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <!--若未出现箭头，需要加入font文件，是在不能解决，加入特殊字符代替&lsaquo;和&rsaquo;-->
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+      <!-- ==========================向左和向右切换的按钮结束=================== -->
+    </div><!-- /.carousel -->
+<!--==========================================   图片轮播滚动结束   ==========================================-->
+
+<!--==========================================     栅格布局开始      ==========================================-->
+  <div class="container marketing" id="tocenter">
+    <!--============     三栏布局      =============-->
+     <div class="row">
+        <div class="col-lg-4 ">
+          <!-- =====================    偏移<div class="col-xs-4 col-xs-offset-4">    =====================-->
+          <img class="img-circle" src="images/img1.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="images/img2.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Heading</h2>
+          <p>Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="images/img3.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+      <hr class="divider" />
+      <!--================    Tab栏切换开始     =============-->
+      <!--============    Tab栏切换的点击按钮     =========-->
+      <ul class="nav mav-tab" role="tablist" id="tab-list">
+          <li class="active"><a href="#home" role="tab" data-toggle="tab">Hao123</a></li>
+          <li><a href="#profile" role="tab" data-toggle="tab">百度</a></li>
+          <li><a href="#message" role="tab" data-toggle="tab">网易</a></li>
+      </ul>
+      <!--================    Tab栏切换内容     =============-->
+      <div class="tab-content">
+          <div class="tab-pane active" id="home">
+            <div class="row feature">
+              <div class="col-md-5">
+                  <img src="images/img1.jpg" class="feature-image img-responsive" alt="Hao 123">
+              </div>
+              <div class="col-md-7">
+                  <h2 class="feature-heading">Hao123 <span class="text-muted">小众但是易用</span></h2>
+                  <p class="lead">ui. Cras, tortor mauris condimentum nibh</p>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="profile">
+              <div class="row feature">
+                <div class="col-md-7">
+                    <h2 class="feature-heading">百度 <span class="text-muted">大众好用</span></h2>
+                    <p class="lead">最受欢迎的浏览器  tellus ac cursus commodo, tortor mauris condimentum nibh</p>
+                </div>
+                <div class="col-md-5">
+                    <img src="images/img2.jpg" class="feature-image img-responsive" alt="Hao 123">
+                </div>
+              </div>
+          </div>
+          <div class="tab-pane" id="message">
+            <div class="row feature">
+              <div class="col-md-5">
+                  <img src="images/img3.jpg" class="feature-image img-responsive" alt="Hao 123">
+              </div>
+              <div class="col-md-7">
+                  <h2 class="feature-heading">网易 <span class="text-muted">网易在线</span></h2>
+                  <p class="lead">网易游戏 Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh</p>
+              </div>
+            </div>
+          </div>
+      </div>
+      <!--================    Tab栏切换结束     =============-->
+    </div><!-- /.container -->
+<!--==========================-===============     栅格布局结束    ============ ================================-->
+
+
+
+    <div class="container">
+
+      <div class="starter-template">
+        <h1>Bootstrap starter template</h1>
+        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+      </div>
+      <hr class="divider">
+<!--==========================-===============    底部版权信息    =============================================-->
+      <footer >
+        <p class="pull-right"><a href="#top">回到顶部</a></p>
+        <p ><a href="#">版权信息&copy;2015</a></p>
+      </footer>
+    </div><!-- /.container -->
+
+<!--====================================    点击帮助显示弹出框modal    ===========================================-->
+           
+            <div class="modal fade" id="help">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header"> <!--=====   弹出框的头部开始    ======-->
+                    <button type="button" class="close" data-dimiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h4 class="modal-title">我是弹出框的标题</h4>
+                  </div><!--=====   弹出框的头部结束    ======-->
+                  <div class="modal-body">
+                    <p>Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+                  </div><!--=====   弹出框的内容    ======-->
+                  <div class="modal-footer"><!--=====   弹出框的底部按钮    ======-->
+                    <button type="button" class="btn btn-default" data-dimiss="modal">了解了Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    
+    <!--地址或者这样
+        <link type="text/css" rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+        <script type="text/javascript" src=" http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+        <script type="text/javascript" src="http://cdn.bootcss.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    -->
+    <!--================    点击下拉菜单下边tab栏也会切换    =============-->
+    <!--================      打开相应标签页的代码      =============
+                        1,$('#myTab a[href="#profile"]').tab("show")
+                        2$('#myTab a:first').tab("show")
+                        3,$('#myTab a:last').tab('show')
+                        4,$('#myTab li:eq(1) a').tab('show')    =============-->
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $("#navbar .dropdown-menu a").click(function(){
+          var href=$(this).attr("href");
+          $("#tab-list a[href='"+href+"']").tab("show")
+        })
+      });
+    </script>
+  </body>
+</html>

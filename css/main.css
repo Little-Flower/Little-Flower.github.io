@@ -62,7 +62,7 @@ body{font-size: 14px;}
 hr{margin-top: 20px; width: 960px; display: block;}
 #myread .ul1{width: 960px; margin:20px auto;}
 #myread .ul1 li.li1{width: 150px; padding-right: 30px; float: left;}
-#myread .ul1 li.li2{width: 750px; float: left;}
+#myread .ul1 li.li2{width: 750px; float: left;line-height: 20px;}
 #myread .qing{ clear: both;}
 #myread .li1 ul{width: 150px;} 
 #myread .li2 ul{width: 750px; word-break:break-all;}
